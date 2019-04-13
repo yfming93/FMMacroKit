@@ -1,0 +1,11 @@
+.DS_Store
+*.xcuserstate
+project.xcworkspace
+UserInterfaceState.xcuserstate
+oclint.html
+build/
+derivedData/
+xcuserdata
+xcuserdata/  
+UserInterface.xcuserstate
+*.xcbkptlist
