@@ -10,6 +10,20 @@
 #ifndef FMMacroCommon_h
 #define FMMacroCommon_h
 
+// property
+#pragma mark - property
+
+#define proNSString(str)                @property (nonatomic,copy) NSString *str;
+#define proNSArray(arr)                 @property (nonatomic,retain) NSArray *arr;
+#define proNSMutableArray(arr)          @property (nonatomic,strong) NSMutableArray *arr;
+#define proNSMutableArrayType(type,arr) @property (nonatomic,strong) NSMutableArray <type * >*arr;
+#define proNSDictionary(dic)            @property (nonatomic,strong) NSDictionary *dic;
+#define proStrongType(type,name)        @property (nonatomic,strong) type *name;
+#define proNSInteger(value)             @property(nonatomic, assign) NSInteger value;
+#define proAssignType(type,name)        @property(nonatomic, assign) type name;
+#define proCGFloat(value)               @property(nonatomic, assign) CGFloat value;
+#define proBool(value)                  @property(nonatomic, assign) BOOL value;
+
 // 常用
 #pragma mark - 常用
 //
@@ -62,6 +76,22 @@
 \
 [View.layer setCornerRadius:(Radius)];\
 [View.layer setMasksToBounds:YES];
+
+
+#define kViewSomeRadius(View, kRadius, isBottomLeft, isBottomRight, isTopLeft, isTopRight) \
+\
+UIRectCorner corner;\
+if (isBottomLeft) corner = UIRectCornerBottomLeft;\
+if (isBottomRight) corner = corner | UIRectCornerBottomRight;\
+if (isTopLeft) corner = corner | UIRectCornerTopLeft;\
+if (isTopRight) corner = corner | UIRectCornerTopRight;\
+UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:View.bounds   byRoundingCorners:corner  cornerRadii:CGSizeMake(kRadius, kRadius)]; \
+CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init]; \
+maskLayer.frame = View.bounds; \
+maskLayer.path = maskPath.CGPath;\
+View.layer.mask = maskLayer; 
+
+
 
 
 #endif /* FMMacroCommon_h */

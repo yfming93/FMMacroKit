@@ -7,12 +7,18 @@
 //
 //  作者博客：https://www.yfmingo.cn
 
-#ifndef FMMacroKit_h
-#define FMMacroKit_h
+
+#if __has_include(<FMMacroKit/FMMacroKit.h>)
+
+#import <FMMacroKit/FMMacroDevice.h>
+#import <FMMacroKit/FMMacroColorFont.h>
+#import <FMMacroKit/FMMacroCommon.h>
+
+#else
 
 #import "FMMacroDevice.h"
 #import "FMMacroColorFont.h"
 #import "FMMacroCommon.h"
 
+#endif
 
-#endif /* FMMacroKit_h */
