@@ -3,7 +3,7 @@
 //  FMMacroKitExample
 //
 //  Created by mingo on 2019/4/13.
-//  Copyright © 2019年 袁凤鸣. All rights reserved.
+//  Copyright © 2019年 mingo. All rights reserved.
 //
 //  作者博客：https://www.yfmingo.cn
 
@@ -37,6 +37,7 @@
 #define kAllocViewControllerByStr(objc) UIViewController *vc = [[NSClassFromString(objc) alloc] init];
 #define kPushToTheViewController(vc)    [self.navigationController pushViewController:vc animated:YES];
 #define kNavTitle(text)                 self.navigationItem.title = text;
+#define kPopViewControllerWithAnimated  [self.navigationController popViewControllerAnimated:YES];
 
 //fit 屏幕适配
 #define KFitPx_6PlusW(WIDTH)     ((WIDTH) / (1920.0/2208.0))/3.0 * (([UIScreen mainScreen].bounds.size.width) / 414.0)

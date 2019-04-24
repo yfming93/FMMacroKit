@@ -3,7 +3,7 @@
 //  FMMacroKitExample
 //
 //  Created by mingo on 2019/4/13.
-//  Copyright © 2019年 袁凤鸣. All rights reserved.
+//  Copyright © 2019年 mingo. All rights reserved.
 //
 //  作者博客：https://www.yfmingo.cn
 

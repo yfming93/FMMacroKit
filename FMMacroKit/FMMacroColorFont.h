@@ -3,7 +3,7 @@
 //  FMMacroKitExample
 //
 //  Created by mingo on 2019/4/13.
-//  Copyright © 2019年 袁凤鸣. All rights reserved.
+//  Copyright © 2019年 mingo. All rights reserved.
 //
 //  作者博客：https://www.yfmingo.cn
 
@@ -29,7 +29,8 @@
 #define kGreyColor2  [UIColor colorWithRed:0.423529 green:0.423529 blue:0.423529 alpha:1.0]
 #define kGreyColor3  [UIColor colorWithRed:0.929412 green:0.929412 blue:0.929412 alpha:1.0]
 #define kGreyColor4  [UIColor colorWithRed:0.878431 green:0.878431 blue:0.878431 alpha:1.0]
-#define kGreyColorN  [UIColor colorWithRed:0.509804 green:0.509804 blue:0.509804 alpha:1.0]
+#define kGreyColor5  [UIColor colorWithRed:0.509804 green:0.509804 blue:0.509804 alpha:1.0]
+#define kGreyColorN  [UIColor colorWithRed:0.93 green:0.93 blue:0.93 alpha:1.00]
 
 #define kWhiteColor  [UIColor whiteColor]
 #define kBlackColor  [UIColor blackColor]
