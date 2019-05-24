@@ -54,5 +54,5 @@
 #define kFont12         [UIFont systemFontOfSize:12.f]
 #define kFontBold(Num)  [UIFont boldSystemFontOfSize:NUm]
 #define kFont(Num)  [UIFont systemFontOfSize:Num]
-
+#define kFontFromPx(pixel) ([UIFont systemFontOfSize:pixel*3/4]) /// UI效果图中的字体大小，px单位字体换成UIFont
 #endif /* FMMacroColorFont_h */
