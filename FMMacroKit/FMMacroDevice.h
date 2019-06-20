@@ -9,6 +9,7 @@
 
 #ifndef FMMacroDevice_h
 #define FMMacroDevice_h
+#import "FMMacroKitTools.h"
 
 // 一些重要缩写
 #pragma mark - 一些重要缩写
@@ -46,18 +47,20 @@
 #define kIsiPhone_xr ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1624), [[UIScreen mainScreen] currentMode].size) : NO)
 // 判断iPhone XsMax
 #define kIsiPhone_xsmax ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size) : NO)
-
+/// 是否是iPhonex系列手机
+#define kIsiPhoneXLotsof (([FMMacroKitTools fm_isNotchScreen]) ? YES : NO)
 
 // 状态栏 导航栏 tabbar高度
 #pragma mark -  状态栏 导航栏 tabbar高度
-//
-#define kStatusBarHeight ((kIsPhone_x_xs == YES || kIsiPhone_xr == YES ||  kIsiPhone_xsmax == YES) ? 44.0 : 20.0)
-#define kNavBarH ((kIsPhone_x_xs==YES || kIsiPhone_xr ==YES ||  kIsiPhone_xsmax == YES) ? 88.0 : 64.0)
-#define kTabbarH ((kIsPhone_x_xs==YES || kIsiPhone_xr ==YES ||  kIsiPhone_xsmax == YES) ? 83.0 : 49.0)
-
-//获取当前版本号
-#define kBundleVersion [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"]
-//获取当前版本的biuld
-#define kBiuldVersion [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]
+/*状态栏高度*/
+#define kStatusBarHeight (([FMMacroKitTools fm_isNotchScreen]) ? 44.0 : 20.0)
+/*状态栏和导航栏总高度*/
+#define kNavBarH (([FMMacroKitTools fm_isNotchScreen]) ? 88.0 : 64.0)
+/*TabBar高度*/
+#define kTabbarH (([FMMacroKitTools fm_isNotchScreen]) ? 83.0 : 49.0)
+/*顶部安全区域远离高度*/
+#define kSafeHeightTopBar (CGFloat)(([FMMacroKitTools fm_isNotchScreen])?(44.0):(0))
+/*底部安全区域远离高度*/
+#define kSafeHeightBottom (CGFloat)(([FMMacroKitTools fm_isNotchScreen])?(34.0):(0))
 
 #endif /* FMMacroDevice_h */
