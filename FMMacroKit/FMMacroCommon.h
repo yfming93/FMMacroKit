@@ -22,6 +22,7 @@
 #define proNSInteger(value)             @property(nonatomic, assign) NSInteger value;
 #define proAssignType(type,name)        @property(nonatomic, assign) type name;
 #define proCGFloat(value)               @property(nonatomic, assign) CGFloat value;
+#define proDouble(value)                @property(nonatomic, assign) double value;
 #define proBool(value)                  @property(nonatomic, assign) BOOL value;
 
 // 常用
