@@ -55,6 +55,8 @@
 /*状态栏高度*/
 #define kStatusBarHeight (([FMMacroKitTools fm_isNotchScreen]) ? 44.0 : 20.0)
 /*状态栏和导航栏总高度*/
+#define kNavBarAllH ((([FMMacroKitTools fm_isNotchScreen]) ? 88.0 : 64.0) + kStatusBarHeight)
+/*导航栏总高度*/
 #define kNavBarH (([FMMacroKitTools fm_isNotchScreen]) ? 88.0 : 64.0)
 /*TabBar高度*/
 #define kTabbarH (([FMMacroKitTools fm_isNotchScreen]) ? 83.0 : 49.0)
@@ -62,5 +64,6 @@
 #define kSafeHeightTopBar (CGFloat)(([FMMacroKitTools fm_isNotchScreen])?(44.0):(0))
 /*底部安全区域远离高度*/
 #define kSafeHeightBottom (CGFloat)(([FMMacroKitTools fm_isNotchScreen])?(34.0):(0))
+#define kAppVersionCode ([[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"])
 
 #endif /* FMMacroDevice_h */

@@ -31,7 +31,7 @@
 #define weakSelf(self)  __weak typeof(self)weakSelf = self;                         //弱引用
 #define FM_IMAGE(str)   [UIImage imageNamed:(str)]                                  //image
 #define FM_STR(id)      [NSString stringWithFormat:@"%@",id]                        //转字符串
-#define FM_URL(str)     [NSURL URLWithString:str]                                   //url
+#define FM_URL(kstr)    [NSURL URLWithString:[FMMacroKitTools fm_isContainChinese:kstr] ? [kstr stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]] : kstr]                                   //url
 
 #define kAllocInitVC(objc)              objc *vc = [[objc alloc] init];
 #define kAllocInit(objc,name)           objc *name = [[objc alloc] init];
