@@ -21,7 +21,8 @@
 // 随机色
 #define kRandomColor  [UIColor colorWithRed:(arc4random_uniform(256))/255.0 green:arc4random_uniform(256)/255.0 blue:(arc4random_uniform(256))/255.0 alpha:1.0]
 /// 16进制 颜色 转换 传入 #5D9EE1，5D9EE1，0x5D9EE1 等等
-#define kHexColor(_hex_)   [FMMacroKitTools fm_colorWithHexString:((__bridge NSString *)CFSTR(#_hex_))]
+#define kHexColor(_hex_)   [FMMacroKitTools fm_colorWithHexString:((__bridge NSString *)CFSTR(#_hex_))] //只 需要传入 _hex_
+#define kHexColorFormat(_hex_)   [FMMacroKitTools fm_colorWithHexString:_hex_] //需要传入@"_hex_"
 
 
 //kColor
