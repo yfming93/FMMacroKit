@@ -57,6 +57,6 @@
 #define kFont13         [UIFont systemFontOfSize:13.f]
 #define kFont12         [UIFont systemFontOfSize:12.f]
 #define kFontBold(kNum)  [UIFont boldSystemFontOfSize:kNum]
-#define kFont(kNum)  [UIFont systemFontOfSize:kNum]
+#define kFont(kNum)  	[UIFont systemFontOfSize:kNum]
 #define kFontFromPx(pixel) ([UIFont systemFontOfSize:pixel*3/4]) /// UI效果图中的字体大小，px单位字体换成UIFont
 #endif /* FMMacroColorFont_h */

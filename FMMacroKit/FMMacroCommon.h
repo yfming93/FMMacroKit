@@ -38,6 +38,8 @@
 #define kAllocViewControllerByStr(objc) UIViewController *vc = [[NSClassFromString(objc) alloc] init];
 #define kPushToTheViewController(vc)    [self.navigationController pushViewController:vc animated:YES];
 #define kNavTitle(text)                 self.navigationItem.title = text;
+#define kNavTitleNoQuotes(_string_)     self.navigationItem.title = ((__bridge NSString *)CFSTR(#_string_));
+
 #define kPopViewControllerWithAnimated  [self.navigationController popViewControllerAnimated:YES];
 
 //fit 屏幕适配
