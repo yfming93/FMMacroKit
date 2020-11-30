@@ -1,5 +1,5 @@
 PODS:
-  - FMMacroKit (1.0.0)
+  - FMMacroKit (1.1.2)
 
 DEPENDENCIES:
   - FMMacroKit (from `./../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "./../"
 
 SPEC CHECKSUMS:
-  FMMacroKit: 3c3fc077e914c61b43b057e58537604846c678e1
+  FMMacroKit: d46450175e0b124ad5891ce110bf8fdfe5da5c65
 
 PODFILE CHECKSUM: a7fc3bcabe5e9824f8b5aa95b856eb986d4c0701
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.9.3

@@ -3,34 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BCD8038EC3CC76F1BB793B9B9902691 /* Pods-FMMacroKitExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1B78A44FE3C9D2F6190931A5FFA3F6 /* Pods-FMMacroKitExample-dummy.m */; };
+		02761927E53246C4B64289D969426DA8 /* Pods-FMMacroKitExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9D1EC2E11A92242EADA4D5C769BE3B /* Pods-FMMacroKitExample-dummy.m */; };
+		39135750CE225960F8C0E506D5AEBF81 /* FMMacroCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = FC51D1C75F144E465DEE65FB1B87572B /* FMMacroCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5AE4C35F526A9BF2B7FCF2A2F94DBBFD /* FMMacroKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6CEE7773559C421F3C7C1DB9F75A2C /* FMMacroKit-dummy.m */; };
+		8E83F7DA0AA4A14EAA4B8AD62C46AA62 /* FMMacroKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E2F1EDCB5209608DED75A7D037822F75 /* FMMacroKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA3CDF62581F883FD56521F01C2E1085 /* FMMacroDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FBF9CA9DC55B87A5013C6CE1137BE65 /* FMMacroDevice.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB38F3890E1C59A8A3F510E9C41E4954 /* FMMacroKitTools.h in Headers */ = {isa = PBXBuildFile; fileRef = FB96D0A5E8BF67D490833F04026C028A /* FMMacroKitTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DB9298CA5F5BEE8274E0E8E7D7EE9CE7 /* FMMacroColorFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 05ADCED2ED27C65D00ABF1FA636ED70F /* FMMacroColorFont.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB04A41E27CEA3747ABD38883DFFFB0A /* FMMacroKitTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C4547C265AB343E098122029D75FCA /* FMMacroKitTools.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E733CDD31468E8D01B3A0359E5692E56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FBE972BB6495717866C49C9F787202F;
+			remoteInfo = FMMacroKit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		01BE7972E8949F64151A5C2EA7A297B6 /* FMMacroColorFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMMacroColorFont.h; path = FMMacroKit/FMMacroColorFont.h; sourceTree = "<group>"; };
-		01F1D2354BE2C3799C5AA6A0028FCCDD /* FMMacroKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMMacroKit.h; path = FMMacroKit/FMMacroKit.h; sourceTree = "<group>"; };
-		088A71BB56FB58BABCF84896FBA93C41 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		0FE0ED6D0094921C1AFB9C73A886D894 /* Pods-FMMacroKitExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FMMacroKitExample-resources.sh"; sourceTree = "<group>"; };
-		202CE570B355A03D6CBE1EE6E207234B /* Pods-FMMacroKitExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FMMacroKitExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		3A7582CD01DAAAB1B001274843A70EC0 /* libPods-FMMacroKitExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FMMacroKitExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D009AF325919AF9EDF003FC939D6091 /* Pods-FMMacroKitExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FMMacroKitExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		53064AD6F34747F4EC25D2F60B1C8E33 /* FMMacroKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = FMMacroKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5C1B78A44FE3C9D2F6190931A5FFA3F6 /* Pods-FMMacroKitExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FMMacroKitExample-dummy.m"; sourceTree = "<group>"; };
-		628419F61FE7150DB4255E9855630BBD /* FMMacroCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMMacroCommon.h; path = FMMacroKit/FMMacroCommon.h; sourceTree = "<group>"; };
-		63A0582399536077B759502B1A4D712C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7B3D64BB8E829A779AD3D6FDA7DF37C1 /* Pods-FMMacroKitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMMacroKitExample.release.xcconfig"; sourceTree = "<group>"; };
-		81ACFDDDC36D8C40A5C2DC7590E63BA8 /* FMMacroDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMMacroDevice.h; path = FMMacroKit/FMMacroDevice.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B1EF561A3E674E32799A4553B474F3BD /* Pods-FMMacroKitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMMacroKitExample.debug.xcconfig"; sourceTree = "<group>"; };
-		CF4121DB10567B7F147BD6BDBE60142A /* Pods-FMMacroKitExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FMMacroKitExample-frameworks.sh"; sourceTree = "<group>"; };
+		05ADCED2ED27C65D00ABF1FA636ED70F /* FMMacroColorFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMMacroColorFont.h; path = FMMacroKit/FMMacroColorFont.h; sourceTree = "<group>"; };
+		2A28F425F8641F10AE09A2BCCFA62A3A /* FMMacroKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMMacroKit-prefix.pch"; sourceTree = "<group>"; };
+		2FC8FB9426316CE02550119FC6B84EE2 /* FMMacroKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FMMacroKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2FEC9672CBDC3B8C0C765C4C37581F36 /* Pods-FMMacroKitExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FMMacroKitExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		45AA7F92A39E0D04E9FA6245A520EB0B /* Pods-FMMacroKitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMMacroKitExample.debug.xcconfig"; sourceTree = "<group>"; };
+		4A6A51FB024E544295DCB531249B0D62 /* FMMacroKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMMacroKit.debug.xcconfig; sourceTree = "<group>"; };
+		50CF8F5CC8ECF0B142B8076AEDEFB67A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5D9D1EC2E11A92242EADA4D5C769BE3B /* Pods-FMMacroKitExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FMMacroKitExample-dummy.m"; sourceTree = "<group>"; };
+		6FBF9CA9DC55B87A5013C6CE1137BE65 /* FMMacroDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMMacroDevice.h; path = FMMacroKit/FMMacroDevice.h; sourceTree = "<group>"; };
+		75C4547C265AB343E098122029D75FCA /* FMMacroKitTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMMacroKitTools.m; path = FMMacroKit/FMMacroKitTools.m; sourceTree = "<group>"; };
+		77F380A003A50EE27CA668FB11358D83 /* libPods-FMMacroKitExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FMMacroKitExample.a"; path = "libPods-FMMacroKitExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845FB5E5659B2C9FB2BFE8D6D0C11E9A /* libFMMacroKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFMMacroKit.a; path = libFMMacroKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		874F0C3EA7ABBC6B33818B2C0190DC74 /* FMMacroKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMMacroKit.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0A12E10736F3CC3E81B720EA8AD4676 /* Pods-FMMacroKitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMMacroKitExample.release.xcconfig"; sourceTree = "<group>"; };
+		CE6CEE7773559C421F3C7C1DB9F75A2C /* FMMacroKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMMacroKit-dummy.m"; sourceTree = "<group>"; };
+		DFA9D13B5FE62B27CB17514D0F3459A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E2F1EDCB5209608DED75A7D037822F75 /* FMMacroKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMMacroKit.h; path = FMMacroKit/FMMacroKit.h; sourceTree = "<group>"; };
+		F6490E47811D18AF252E02B857C35890 /* Pods-FMMacroKitExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FMMacroKitExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB96D0A5E8BF67D490833F04026C028A /* FMMacroKitTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMMacroKitTools.h; path = FMMacroKit/FMMacroKitTools.h; sourceTree = "<group>"; };
+		FC51D1C75F144E465DEE65FB1B87572B /* FMMacroCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMMacroCommon.h; path = FMMacroKit/FMMacroCommon.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		57013AB8F4600107958BF0ABBE8C3874 /* Frameworks */ = {
+		0EC6BF2963192FFE727AA525562EBE34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40088545273F811AD7D278C28BA1DAA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,82 +69,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0275ED443AB56AC871398AADC45FF56E /* Development Pods */ = {
+		64E638F4FB97F7FC7AB799B54924904E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1CBE014032AF64F4ACA63E4E2A51FF15 /* FMMacroKit */,
+				CE6CEE7773559C421F3C7C1DB9F75A2C /* FMMacroKit-dummy.m */,
+				2A28F425F8641F10AE09A2BCCFA62A3A /* FMMacroKit-prefix.pch */,
+				4A6A51FB024E544295DCB531249B0D62 /* FMMacroKit.debug.xcconfig */,
+				874F0C3EA7ABBC6B33818B2C0190DC74 /* FMMacroKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "FMMacroKitExample/Pods/Target Support Files/FMMacroKit";
+			sourceTree = "<group>";
+		};
+		7B9E21BBDFAF5BBD34150E47E07DD190 /* FMMacroKit */ = {
+			isa = PBXGroup;
+			children = (
+				05ADCED2ED27C65D00ABF1FA636ED70F /* FMMacroColorFont.h */,
+				FC51D1C75F144E465DEE65FB1B87572B /* FMMacroCommon.h */,
+				6FBF9CA9DC55B87A5013C6CE1137BE65 /* FMMacroDevice.h */,
+				E2F1EDCB5209608DED75A7D037822F75 /* FMMacroKit.h */,
+				FB96D0A5E8BF67D490833F04026C028A /* FMMacroKitTools.h */,
+				75C4547C265AB343E098122029D75FCA /* FMMacroKitTools.m */,
+				82071E71050AE45A286083ABB283126F /* Pod */,
+				64E638F4FB97F7FC7AB799B54924904E /* Support Files */,
+			);
+			name = FMMacroKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		82071E71050AE45A286083ABB283126F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2FC8FB9426316CE02550119FC6B84EE2 /* FMMacroKit.podspec */,
+				50CF8F5CC8ECF0B142B8076AEDEFB67A /* LICENSE */,
+				DFA9D13B5FE62B27CB17514D0F3459A4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		899A4DAEFE0994E20FDC06C36C7DF341 /* Pods-FMMacroKitExample */ = {
+			isa = PBXGroup;
+			children = (
+				F6490E47811D18AF252E02B857C35890 /* Pods-FMMacroKitExample-acknowledgements.markdown */,
+				2FEC9672CBDC3B8C0C765C4C37581F36 /* Pods-FMMacroKitExample-acknowledgements.plist */,
+				5D9D1EC2E11A92242EADA4D5C769BE3B /* Pods-FMMacroKitExample-dummy.m */,
+				45AA7F92A39E0D04E9FA6245A520EB0B /* Pods-FMMacroKitExample.debug.xcconfig */,
+				B0A12E10736F3CC3E81B720EA8AD4676 /* Pods-FMMacroKitExample.release.xcconfig */,
+			);
+			name = "Pods-FMMacroKitExample";
+			path = "Target Support Files/Pods-FMMacroKitExample";
+			sourceTree = "<group>";
+		};
+		9D66454ED8017453926D7CF259196F02 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				899A4DAEFE0994E20FDC06C36C7DF341 /* Pods-FMMacroKitExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B1CFE1A0FF48481E6DBBDADBC601D710 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B9E21BBDFAF5BBD34150E47E07DD190 /* FMMacroKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B1CFE1A0FF48481E6DBBDADBC601D710 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				F78DCA8B9FB5F02277522FBAD9CED390 /* Products */,
+				9D66454ED8017453926D7CF259196F02 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1CBE014032AF64F4ACA63E4E2A51FF15 /* FMMacroKit */ = {
+		F78DCA8B9FB5F02277522FBAD9CED390 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01BE7972E8949F64151A5C2EA7A297B6 /* FMMacroColorFont.h */,
-				81ACFDDDC36D8C40A5C2DC7590E63BA8 /* FMMacroDevice.h */,
-				628419F61FE7150DB4255E9855630BBD /* FMMacroCommon.h */,
-				01F1D2354BE2C3799C5AA6A0028FCCDD /* FMMacroKit.h */,
-				37E52BCE120C72ABD5E7ED016B3956E1 /* Pod */,
-			);
-			name = FMMacroKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		2C9A28AE44C6B41B47CA4F82FB507AD7 /* Pods-FMMacroKitExample */ = {
-			isa = PBXGroup;
-			children = (
-				4D009AF325919AF9EDF003FC939D6091 /* Pods-FMMacroKitExample-acknowledgements.markdown */,
-				202CE570B355A03D6CBE1EE6E207234B /* Pods-FMMacroKitExample-acknowledgements.plist */,
-				5C1B78A44FE3C9D2F6190931A5FFA3F6 /* Pods-FMMacroKitExample-dummy.m */,
-				CF4121DB10567B7F147BD6BDBE60142A /* Pods-FMMacroKitExample-frameworks.sh */,
-				0FE0ED6D0094921C1AFB9C73A886D894 /* Pods-FMMacroKitExample-resources.sh */,
-				B1EF561A3E674E32799A4553B474F3BD /* Pods-FMMacroKitExample.debug.xcconfig */,
-				7B3D64BB8E829A779AD3D6FDA7DF37C1 /* Pods-FMMacroKitExample.release.xcconfig */,
-			);
-			name = "Pods-FMMacroKitExample";
-			path = "Target Support Files/Pods-FMMacroKitExample";
-			sourceTree = "<group>";
-		};
-		37E52BCE120C72ABD5E7ED016B3956E1 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				53064AD6F34747F4EC25D2F60B1C8E33 /* FMMacroKit.podspec */,
-				088A71BB56FB58BABCF84896FBA93C41 /* LICENSE */,
-				63A0582399536077B759502B1A4D712C /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		7C3130D4FA229AFF93A94CE411BAC1EB /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2C9A28AE44C6B41B47CA4F82FB507AD7 /* Pods-FMMacroKitExample */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0275ED443AB56AC871398AADC45FF56E /* Development Pods */,
-				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				C1D86A6423B9B69230CB3E7E692F1B46 /* Products */,
-				7C3130D4FA229AFF93A94CE411BAC1EB /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		C1D86A6423B9B69230CB3E7E692F1B46 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3A7582CD01DAAAB1B001274843A70EC0 /* libPods-FMMacroKitExample.a */,
+				845FB5E5659B2C9FB2BFE8D6D0C11E9A /* libFMMacroKit.a */,
+				77F380A003A50EE27CA668FB11358D83 /* libPods-FMMacroKitExample.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,7 +166,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		28BD802A885EEDB1959B2BD365111414 /* Headers */ = {
+		5A1C18523A58C68A7AD538C5025BEC75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9298CA5F5BEE8274E0E8E7D7EE9CE7 /* FMMacroColorFont.h in Headers */,
+				39135750CE225960F8C0E506D5AEBF81 /* FMMacroCommon.h in Headers */,
+				CA3CDF62581F883FD56521F01C2E1085 /* FMMacroDevice.h in Headers */,
+				8E83F7DA0AA4A14EAA4B8AD62C46AA62 /* FMMacroKit.h in Headers */,
+				CB38F3890E1C59A8A3F510E9C41E4954 /* FMMacroKitTools.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0CABF468A7EABDD9797B0DF964B3AE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -133,64 +188,102 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C53C2D3B1204D330AE5355326D98B721 /* Pods-FMMacroKitExample */ = {
+		09559C88CF5C68C3E7730D9869AC50C4 /* Pods-FMMacroKitExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7376E57C755F7B6B747CC1C85C9FC4FB /* Build configuration list for PBXNativeTarget "Pods-FMMacroKitExample" */;
+			buildConfigurationList = 7BCB3CD2EF012660B384C7D431AFDE6B /* Build configuration list for PBXNativeTarget "Pods-FMMacroKitExample" */;
 			buildPhases = (
-				28BD802A885EEDB1959B2BD365111414 /* Headers */,
-				6E99EBC2D1BA604F1125ECE07C6B2A23 /* Sources */,
-				57013AB8F4600107958BF0ABBE8C3874 /* Frameworks */,
+				8F0CABF468A7EABDD9797B0DF964B3AE /* Headers */,
+				64C51F97B6323BA91789D3A6D9E35AD4 /* Sources */,
+				B40088545273F811AD7D278C28BA1DAA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EFC0F01C1772B1762A7034220CD25C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-FMMacroKitExample";
+			productName = "Pods-FMMacroKitExample";
+			productReference = 77F380A003A50EE27CA668FB11358D83 /* libPods-FMMacroKitExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4FBE972BB6495717866C49C9F787202F /* FMMacroKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2657DD559860902E45C16994BCF456B7 /* Build configuration list for PBXNativeTarget "FMMacroKit" */;
+			buildPhases = (
+				5A1C18523A58C68A7AD538C5025BEC75 /* Headers */,
+				22CAC67352EAD15C38EEA728E36DA5AC /* Sources */,
+				0EC6BF2963192FFE727AA525562EBE34 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-FMMacroKitExample";
-			productName = "Pods-FMMacroKitExample";
-			productReference = 3A7582CD01DAAAB1B001274843A70EC0 /* libPods-FMMacroKitExample.a */;
+			name = FMMacroKit;
+			productName = FMMacroKit;
+			productReference = 845FB5E5659B2C9FB2BFE8D6D0C11E9A /* libFMMacroKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C1D86A6423B9B69230CB3E7E692F1B46 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F78DCA8B9FB5F02277522FBAD9CED390 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C53C2D3B1204D330AE5355326D98B721 /* Pods-FMMacroKitExample */,
+				4FBE972BB6495717866C49C9F787202F /* FMMacroKit */,
+				09559C88CF5C68C3E7730D9869AC50C4 /* Pods-FMMacroKitExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6E99EBC2D1BA604F1125ECE07C6B2A23 /* Sources */ = {
+		22CAC67352EAD15C38EEA728E36DA5AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BCD8038EC3CC76F1BB793B9B9902691 /* Pods-FMMacroKitExample-dummy.m in Sources */,
+				5AE4C35F526A9BF2B7FCF2A2F94DBBFD /* FMMacroKit-dummy.m in Sources */,
+				FB04A41E27CEA3747ABD38883DFFFB0A /* FMMacroKitTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C51F97B6323BA91789D3A6D9E35AD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02761927E53246C4B64289D969426DA8 /* Pods-FMMacroKitExample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4EFC0F01C1772B1762A7034220CD25C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMMacroKit;
+			target = 4FBE972BB6495717866C49C9F787202F /* FMMacroKit */;
+			targetProxy = E733CDD31468E8D01B3A0359E5692E56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		49E54AE78AEC0FE26FA2D2324CF60B42 /* Release */ = {
+		6EAF7976A2E133A1463FAB3CEBE9ADAC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B3D64BB8E829A779AD3D6FDA7DF37C1 /* Pods-FMMacroKitExample.release.xcconfig */;
+			baseConfigurationReference = B0A12E10736F3CC3E81B720EA8AD4676 /* Pods-FMMacroKitExample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -210,7 +303,30 @@
 			};
 			name = Release;
 		};
-		5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */ = {
+		706153B91079DF3B537C8DC4F0A5C7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A6A51FB024E544295DCB531249B0D62 /* FMMacroKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FMMacroKit/FMMacroKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FMMacroKit;
+				PRODUCT_NAME = FMMacroKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,8 +358,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -265,13 +379,14 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -303,8 +418,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -332,14 +445,38 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		ED1CC5B5A392CDE248C7905A4C3233F7 /* Debug */ = {
+		D62E2C75AA8DB4E2FA8F7D817EA54EAA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1EF561A3E674E32799A4553B474F3BD /* Pods-FMMacroKitExample.debug.xcconfig */;
+			baseConfigurationReference = 874F0C3EA7ABBC6B33818B2C0190DC74 /* FMMacroKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FMMacroKit/FMMacroKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FMMacroKit;
+				PRODUCT_NAME = FMMacroKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F59634190273F25C236D99DB72A3D771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45AA7F92A39E0D04E9FA6245A520EB0B /* Pods-FMMacroKitExample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -361,25 +498,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		2657DD559860902E45C16994BCF456B7 /* Build configuration list for PBXNativeTarget "FMMacroKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				858D01EEFE984249A9581D18DBEA53F1 /* Debug */,
-				5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */,
+				706153B91079DF3B537C8DC4F0A5C7C1 /* Debug */,
+				D62E2C75AA8DB4E2FA8F7D817EA54EAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7376E57C755F7B6B747CC1C85C9FC4FB /* Build configuration list for PBXNativeTarget "Pods-FMMacroKitExample" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED1CC5B5A392CDE248C7905A4C3233F7 /* Debug */,
-				49E54AE78AEC0FE26FA2D2324CF60B42 /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BCB3CD2EF012660B384C7D431AFDE6B /* Build configuration list for PBXNativeTarget "Pods-FMMacroKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59634190273F25C236D99DB72A3D771 /* Debug */,
+				6EAF7976A2E133A1463FAB3CEBE9ADAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

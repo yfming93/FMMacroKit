@@ -85,6 +85,7 @@ static BOOL fm_hexStrToRGBA(NSString *str,
             // 判断 device model 是否为 "iPhone10,3" 和 "iPhone10,6" 或者以 "iPhone11," 开头就是 iPhone X
             // 以 "iPhone12," 开头就是 iPhone11
         isiPhoneX = [model isEqualToString:@"iPhone10,3"] || [model isEqualToString:@"iPhone10,6"] || [model hasPrefix:@"iPhone11,"] || [model hasPrefix:@"iPhone12,"];
+        if ([model hasPrefix:@"iPhone12,8"]) isiPhoneX = NO; // iPhone12,8 is iPhone SE
     });
     
     return isiPhoneX;

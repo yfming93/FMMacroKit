@@ -26,10 +26,11 @@
 #pragma mark - 判断系统版本
 //
 #define kSystemVersion [[UIDevice currentDevice].systemVersion doubleValue]
-#define kiOS9Later (kSystemVersion >= 9)
 #define kiOS10Later (kSystemVersion >= 10)
 #define kiOS11Later (kSystemVersion >= 11)
 #define kiOS12Later (kSystemVersion >= 12)
+#define kiOS13Later (kSystemVersion >= 13)
+#define kiOS14Later (kSystemVersion >= 14)
 
 
 // iPhone 手机型号
